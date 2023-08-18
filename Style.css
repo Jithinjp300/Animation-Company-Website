@@ -1,0 +1,161 @@
+.cardcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.footer{
+    max-width:900px; 
+   height: 300px;
+   margin:4px auto;
+    padding: 20px;
+   display: flex;
+   position: relative;
+   top: 60px;
+   font-family: 'Playfair Display', serif;
+}
+.bannerhead2{
+    position: relative;
+    top: -10px;
+    font-size: 50px;   
+}
+h5{
+ position: relative;
+ top: -10px;
+ font-size: 50px; 
+}
+.bannerhead{
+    top: -20px;
+    font-size: 60px;
+}
+.bannerline{
+    position: relative;
+    top: -10px;
+    font-size: 40px;
+}
+.bannerline1{
+    position: relative;
+    top: -20px;
+    font-size: 40px;
+}
+.box1{
+
+   padding: 5px;
+   margin: 5px;
+   max-width: 700px;
+}
+.box2{
+  
+   padding: 5px;
+   margin: 5px;
+   max-width: 700px;
+}
+@media (max-width:600px){
+   .footer{
+       width: 100%;
+       display: block;
+       height: 400px;
+   }
+}
+.footer2{
+    max-width:900px; 
+   height: 300px;
+   margin:4px auto;
+    padding: 20px;
+   display: flex;
+   position: relative;
+   top: 20px;
+   font-family: 'Playfair Display', serif;
+}
+@media (max-width:600px){
+    .footer2{
+        width: 100%;
+        display: block;
+        height: 400px;
+        position: relative;
+        top: -50px;
+    }
+ }
+ .ourworks{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ @media (max-width:600px){
+    .ourworks{
+        
+        height: 1300px;
+        position: relative;
+        top: -250px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+        
+    }
+}
+.location{
+    display: flex;
+}
+ .fa-location-dot{
+    position: relative;
+   top: 10px;
+    font-size: 20px;
+    left: -10px;
+ }
+ .phone{
+    display: flex;
+}
+ .fa-square-phone{
+    position: relative;
+   top: 10px;
+    font-size: 20px;
+    left: -10px;
+ }
+ .mail{
+    display: flex;
+}
+ .fa-envelope{
+    position: relative;
+   top: 10px;
+    font-size: 20px;
+    left: -10px;
+ }
+.last{
+     max-width:100%; 
+    height: 300px;
+    background-color: rgb(44, 44, 43);
+    margin:4px auto;
+     padding: 20px;
+    display: flex;
+    height: 400px;
+    color: white;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px;
+}
+  
+.last1{
+     position: relative;
+     top: 20px;
+    padding: 5px;
+    margin: 5px;
+    max-width: 500px;
+}
+.last2{
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    margin: 5px;
+    max-width: 500px;
+}
+@media (max-width:600px){
+    .last{
+        width: 100%;
+        display: block;
+        height: 500px;
+        margin-top: -200px;
+    }
+}
